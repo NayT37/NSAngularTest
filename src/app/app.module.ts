@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent
   ],
+  /* Import the view model in order to have all the components from there */
   imports: [
     BrowserModule
   ],

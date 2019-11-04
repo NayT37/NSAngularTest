@@ -120,6 +120,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "NSAngularTest"
+    }
+  },
+  "defaultProject": "NSAngularTest",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
