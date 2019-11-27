@@ -37,14 +37,16 @@
     <h4>The NG-tags</h4>
     <p>ng-content + viewChild decorator (afterViewInit and componentName)</p>
     <p>ng-container + ngIf + ngFor</p>
-    <p>ng-template + ngIf / else template</p>
-    <p>[(ng-model)] and inputs (FormsModule from @angular/forms)</p>
+    <p>ng-template + ngIf "condition" else #template</p>
+    <p>[(ngModel)] and inputs (import FormsModule from @angular/forms)</p>
   </li>
   <li>
     <h4>HTTP Client</h4>
-    <p>Import HttpClientModule inside a module (import from @angular/common).</p>
+    <p>Import HttpClientModule inside a module (import from @angular/common/http).</p>
     <p>Create and add a new service to providers array inside the module.</p>
-    <p>Create a GET function</p>
-    <p>Inject the service and subscribe to it. suscribe((success)=> {{ '{ }' }} , (error)=>{{ '{ }' }}, (complete)=>{{ '{ }' }})</p>
+    <p>Import HttpClient from '@angular/common/http'</p>
+    <p>Create a GET function and return an http.get(URL)</p>
+    <p>Inject the service and subscribe to it. suscribe((success)=> {{ '{ }' }} , (error)=>{{ '{ }' }},
+      (complete)=>{{ '{ }' }})</p>
   </li>
 </ul>
